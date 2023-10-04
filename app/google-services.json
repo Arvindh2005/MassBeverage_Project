@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "189567802625",
+    "project_id": "water-managerproject",
+    "storage_bucket": "water-managerproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:189567802625:android:3725006b987c9ba0330f00",
+        "android_client_info": {
+          "package_name": "com.example.mass"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzDSQ7EMWZRc-AUMLO_M6eM75PSz_I0uc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

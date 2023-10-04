@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/blankFragment">
+
+    <fragment
+        android:id="@+id/blankFragment"
+        android:name="com.example.mass.BlankFragment"
+        android:label="fragment_blank"
+        tools:layout="@layout/fragment_blank" >
+        <action
+            android:id="@+id/action_blankFragment_to_blankFragment2"
+            app:destination="@id/blankFragment2" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/blankFragment8"
+        android:name="com.example.mass.BlankFragment8"
+        android:label="fragment_blank4"
+        tools:layout="@layout/fragment_blank4" >
+        <action
+            android:id="@+id/action_blankFragment8_to_blankFragment4"
+            app:destination="@id/blankFragment4" />
+    </fragment>
+    <fragment
+        android:id="@+id/blankFragment2"
+        android:name="com.example.mass.BlankFragment2"
+        android:label="fragment_loginpage"
+        tools:layout="@layout/fragment_loginpage" >
+        <action
+            android:id="@+id/action_blankFragment2_to_blankFragment3"
+            app:destination="@id/blankFragment3" />
+        <action
+            android:id="@+id/action_blankFragment2_to_blankFragment4"
+            app:destination="@id/blankFragment4" />
+    </fragment>
+    <fragment
+        android:id="@+id/blankFragment3"
+        android:name="com.example.mass.BlankFragment3"
+        android:label="fragment_register"
+        tools:layout="@layout/fragment_register" >
+        <action
+            android:id="@+id/action_blankFragment3_to_blankFragment8"
+            app:destination="@id/blankFragment8" />
+        <action
+            android:id="@+id/action_blankFragment3_to_blankFragment4"
+            app:destination="@id/blankFragment4" />
+    </fragment>
+    <fragment
+        android:id="@+id/blankFragment4"
+        android:name="com.example.mass.BlankFragment4"
+        android:label="fragment_buy"
+        tools:layout="@layout/fragment_buy" >
+
+        <action
+            android:id="@+id/action_blankFragment4_to_blankFragment5"
+            app:destination="@id/blankFragment5" />
+        <action
+            android:id="@+id/action_blankFragment4_to_blankFragment7"
+            app:destination="@id/blankFragment7" />
+    </fragment>
+    <fragment
+        android:id="@+id/blankFragment5"
+        android:name="com.example.mass.BlankFragment5"
+        android:label="fragment_tester"
+        tools:layout="@layout/fragment_tester">
+        <argument
+            android:name="massgreat"
+            app:argType="string" />
+
+        <action
+            android:id="@+id/action_blankFragment5_to_blankFragment6"
+            app:destination="@id/blankFragment6" />
+    </fragment>
+    <fragment
+        android:id="@+id/blankFragment6"
+        android:name="com.example.mass.BlankFragment6"
+        android:label="fragment_blank2"
+        tools:layout="@layout/fragment_blank2" >
+
+        <argument
+            android:name="massgrea"
+            app:argType="string" />
+
+
+        <action
+            android:id="@+id/action_blankFragment6_to_blankFragment7"
+            app:destination="@id/blankFragment7" />
+        <action
+            android:id="@+id/action_blankFragment6_to_blankFragment2"
+            app:destination="@id/blankFragment2" />
+
+
+    </fragment>
+    <fragment
+        android:id="@+id/blankFragment7"
+        android:name="com.example.mass.BlankFragment7"
+        android:label="fragment_blank3"
+        tools:layout="@layout/fragment_blank3" >
+
+        <action
+            android:id="@+id/action_blankFragment7_to_blankFragment9"
+            app:destination="@id/blankFragment9" />
+    </fragment>
+    <fragment
+        android:id="@+id/blankFragment9"
+        android:name="com.example.mass.BlankFragment9"
+        android:label="fragment_blank5"
+        tools:layout="@layout/fragment_blank5" >
+        <action
+            android:id="@+id/action_blankFragment9_to_blankFragment10"
+            app:destination="@id/blankFragment10" />
+        <action
+            android:id="@+id/action_blankFragment9_to_blankFragment11"
+            app:destination="@id/blankFragment11" />
+    </fragment>
+    <fragment
+        android:id="@+id/blankFragment10"
+        android:name="com.example.mass.BlankFragment10"
+        android:label="fragment_blank6"
+        tools:layout="@layout/fragment_blank6" >
+        <action
+            android:id="@+id/action_blankFragment10_to_blankFragment9"
+            app:destination="@id/blankFragment9" />
+    </fragment>
+    <fragment
+        android:id="@+id/blankFragment11"
+        android:name="com.example.mass.BlankFragment11"
+        android:label="fragment_blank7"
+        tools:layout="@layout/fragment_blank7" >
+        <action
+            android:id="@+id/action_blankFragment11_to_blankFragment12"
+            app:destination="@id/blankFragment12" />
+    </fragment>
+    <fragment
+        android:id="@+id/blankFragment12"
+        android:name="com.example.mass.BlankFragment12"
+        android:label="fragment_blank8"
+        tools:layout="@layout/fragment_blank8" >
+        <action
+            android:id="@+id/action_blankFragment12_to_blankFragment4"
+            app:destination="@id/blankFragment4" />
+    </fragment>
+
+
+</navigation>
